@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: poppins;
+    min-width: 828px;
+}
+
+/*propiedades del header*/
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 5%;
+}
+
+/*propiedades del logo principal de la pagina*/
+.header .header__div-logo{
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+
+.header .header__div-logo .div-logo__logo {
+    width: auto;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+.header .header__div-logo .div-logo__logo:hover {
+    transform: scale(1.2);
+}
+
+/*propiedades de los networks icon del header*/
+
+.header .header__networks .networks__icon {
+    width: auto;
+    height: 20px;
+    transition: all 0.3s;
+    margin: 4px;
+}
+
+.header .header__networks{
+    margin-left: 20px;
+}
+
+.header .header__networks .networks__icon:hover {
+    transform: scale(1.5);
+}
+
+/*Propiedades de la barra de navegacion*/
+.header .header__nav .nav__list{
+    list-style: none;
+}
+
+.header .header__nav .nav__list .list__item{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.a-item{
+    text-decoration: none;
+    font-weight: 700;
+    color: #232323;
+}
+/*empezamos con el main y sus propiedades*/
+
+.container1{
+    background-color: #fff;
+    background: radial-gradient(circle at bottom right, #91e0ef ,#fff 25%) ;
+    font-size: 16px;
+    padding: 3% 5%;
+}
+
+/*propiedades del texto software development*/
+.soft-dev{
+    color: #03045e;
+    font-weight: 600;
+    font-size: 1.5em;
+    display: block;
+}
+
+.container1__div{
+    display: flex;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+/*propiedades del texto conectando*/
+.div__strong{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/*propiedades de la iamgen png enfrente de conectando*/
+.div__line-dotted{
+    min-width: 10px;
+    width: 300px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+
+}
+
+/*propiedades del texto empresas*/
+.enterprises{
+    display: block;
+    font-size: 7em;
+    font-weight: 800;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 60px;
+    color: #03045e;
+}
+
+/*propiedades del parrafo del lema*/
+.p-oferta{
+    font-size: 1.2em;
+    color: #030361;
+    font-weight: 600;
+    display: block;
+    position: relative;
+    bottom: 60px;
+}
+
+.letter-black{
+    color: #242424;
+}
+
+/*propiedades del boton contactanos*/
+.container1__button{
+    position: relative;
+    bottom: 30px;
+}
+
+/*propiedades de los botones en general*/
+.buttoms{
+    width: 210px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #01bde0 20%,#02015d );
+}
+
+/*propiedades del hero*/
+
+
+.main__hero{
+    padding: 30px;
+    display: flex;
+    height: 340px;
+    background: linear-gradient(to bottom, #1e2225,#5d5c60);
+    color: #fff;
+}
+/*propiedades de la imagen laptop*/
+.image__laptop{
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+
+.laptop__img{
+    width: 360px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+/*propiedades de todo el recuadro de texto*/
+.hero__h-text{
+    display: inline-block;
+    width:50% ;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.h-text__div-text{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    min-width: 400px;
+    top: 5%;
+}
+
+.div-text__h2{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.h2__socio{
+    color: #92e0ee;
+}
+
+.h-text__h3{
+    margin-top: -14px;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.h-text__parrafo{
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-weight: 500;
+    display: block;
+    text-align:justify;
+    
+}
+/*propiedades del div que contiene los titulos*/
+.main__div-tittle{
+    background: linear-gradient(to bottom, #baf0ff,#fff 40%);
+    padding: 3%;
+    text-align: center;
+}
+/*propiedades texto "tu negocio en el"*/
+.div-tittle1{
+    font-weight: 600;
+    color: #242424;
+    font-size: 2.8em;
+}
+/*propiedades texto "Entorno digital"*/
+.div-tittle2{
+    font-weight: 600;
+    margin-top: -25px;
+    color: #03055c;
+    font-size: 6em;
+}
+
+/*propiedades texto "sitios web"*/
+.div__st-web{
+    text-align: left;
+    font-size: 5em;
+    font-weight: 600;
+    color: #5a5a5a;
+    margin-top: 100px;
+}
+
+/*contiene las propiedades de todo el contenedor*/
+.container2{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/*contiene las propiedades de el contenedor de la imagen y la imagen*/
+.ct2-image{
+    width: 40%;
+    display: flex;
+}
+
+.div__image{
+    width: 80%;
+    margin: auto;
+}
+/*contiene las propiedades del texto y el boton*/
+.ct2-texto{
+    width: 40%;
+    display: flex;
+}
+
+.div-texto{
+    width: 80%;
+}
+
+.div-texto{
+    margin: auto;
+}
+
+.div-txt__h2{
+    text-align: center;
+    font-size: 3.8em;
+    color: #03055e;
+}
+
+.div-p__paragraph{
+    min-width: 300px;
+    max-width: 458px;
+    font-size: 1.3em;
+    text-align: justify ;
+}
+
+.div-bt__buttom{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #01bde0 20%,#02015d );
+}
+
+/*propiedades formulario*/
+.container3{
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff; 
+    padding-bottom: 160px;
+}
+
+/*contiene el texto de "necesitas mas productos", "contactanos" y todos los inputs*/
+.form{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+/*propiedades de la pregunta "necesitas mas productos"*/
+.question-form{
+    color: #070862;
+    font-family: poppins;
+    font-size: 2.8em;
+    margin: 40px 0;
+    font-weight: 600;
+}
+/*contiene el texto "contactanos" y todos los inputs*/
+.cuad-form{
+    height: 100%;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 30px;
+    box-shadow: 0 0 80px 20px #ade1ec;
+}
+/*propiedades del texto contactanos*/
+.inv-form{
+    color: #242424;
+    font-family: poppins;
+    font-size: 3.4em;
+    margin: 15px 0;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+/*contiene solo los inputs*/
+.form2{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+/* propiedades de los inputs en general*/
+.imput{
+    font-size: 1.4em;
+    border: 1px solid #009dc9;
+    border-radius: 8px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+/*clase indivual para modificar cada input*/
+.imp3{
+    height: 140px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.imp4{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    height: 40px;
+    background: linear-gradient(to right, #01bde0 20%,#02015d );
+    margin-bottom: 22px;
+}
+
+
+/*propiedades del footer*/
+footer{
+    background-color: #242424;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/*propiedades del div que contiene el logo dotwass footer*/
+.img-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+/*propiedades del logo dotwass footer*/
+.img-footer2{
+    margin: 20px 40px;
+    margin: auto;
+    width: 250px;
+    height: auto; 
+}
+/*propiedades del div que contiene los iconos de netroks*/
+.icons-footer{
+    width: 100%;
+    height: auto;
+}
+/*propiedades de los iconos facebok e instagram*/
+.icon{
+    width: 50px;
+    margin: 8px 10px;
+}
+
+/*me quedan pendiente los media querys y tambien el codigo en js*/
